@@ -16,4 +16,5 @@ docker run -it --rm \
   --device /dev/dri \
   --privileged \
   -w ${HOME} \
-  vivado:2022.1
+  --name vivado_2023_2 \
+  vivado:2023.2
